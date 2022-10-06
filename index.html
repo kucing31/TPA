@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Scale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="judul">
+            <h1>Check your BMI</h1>
+            <p>Enter your weight and height below to check your BMI results</p>
+        </div>
+        <div class="form">
+            <div class="row">
+                <label for="weight">Put your weight in here (KG)</label>
+            </div>
+            <div class="row">
+                <input type="number" name="weight" id="weight">
+            </div>
+            <div class="row">
+                <label for="height">Put your height in here (CM)</label>
+            </div>
+            <div class="row">
+                <input type="number" name="height" id="height">
+            </div>
+            <div class="row">
+                <div>
+                    <button id="calculate">Calculate BMI</button>
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <p id="summary">Your BMI is <strong><span id="calculateBMI"></span></strong> which means You are <strong><span id="indicatorResult"></span></strong></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
