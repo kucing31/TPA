@@ -1,4 +1,2 @@
-# Technical Project Assignments
-1. TPA 1: [Technical Project Assignment 1]()
-2. TPA 2: [Technical Project Assignment 2]()
-3. TPA 3: [Technical Project Assignment 3]()
+# Technical Project Assigment 2
+link Deployment(https://symphonious-tarsier-e81f64.netlify.app/)
