@@ -203,9 +203,9 @@ a{
     gap: 5px;
     padding: 5px;
     margin-top: 2em;
-    margin-left: 28%;
+    margin-left: 30%;
     width: 750px;
-    margin-bottom: 101px;
+    margin-bottom: 195px;
 }
 
 .link-article{
@@ -238,4 +238,5 @@ footer{
     display: block;
     font-size: 14px;
     text-align: center;
+    margin-top: 5%;
 }
